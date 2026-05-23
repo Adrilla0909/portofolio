@@ -777,6 +777,12 @@ a:hover {
     display: inline-block;
 }
 
+.category-title i {
+    color: var(--primary-color);
+    margin-right: 0.8rem;
+    font-size: 1.6rem;
+}
+
 .project-date {
     font-size: 0.85rem;
     color: var(--light-text);
