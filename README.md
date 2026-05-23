@@ -220,8 +220,4 @@ For questions or issues, please check:
 
 ---
 
-**Portfolio for Adrilla Windralia**
-IT Support Specialist | Software Developer | Data Analyst
-
-📧 adrillawindralia09@gmail.com | 📱 +62 85215375394 | 📍 Karawang, Indonesia
 
