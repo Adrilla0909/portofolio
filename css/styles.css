@@ -762,6 +762,34 @@ a:hover {
     font-weight: 500;
 }
 
+/* Project Categories */
+.project-category {
+    margin-bottom: 3rem;
+}
+
+.category-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--dark-text);
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 3px solid var(--primary-color);
+    display: inline-block;
+}
+
+.project-date {
+    font-size: 0.85rem;
+    color: var(--light-text);
+    font-weight: 500;
+    margin-bottom: 0.5rem !important;
+}
+
+.project-info h4 {
+    margin-bottom: 0.3rem;
+    color: var(--dark-text);
+    font-size: 1.1rem;
+}
+
 /* ==================== SKILLS SECTION ==================== */
 .skills {
     padding: 5rem 0;
