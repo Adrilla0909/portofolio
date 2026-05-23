@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adrilla Windralia - IT Professional & Software Developer</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">
+                    <span class="logo-text">Adrilla</span>
+                    <span class="logo-dot"></span>
+                </div>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">Adrilla Windralia</h1>
+                    <p class="hero-subtitle">IT Support Specialist | Software Developer | Data Analyst</p>
+                    <p class="hero-desc">Final Year Information Systems Student | Building innovative solutions with passion for technology</p>
+                    <div class="hero-buttons">
+                        <button class="btn btn-primary" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">Contact Me</button>
+                        <button class="btn btn-secondary" onclick="document.getElementById('projects').scrollIntoView({behavior: 'smooth'})">View Work</button>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="hero-ring hero-ring-1"></div>
+                    <div class="hero-ring hero-ring-2"></div>
+                    
+                    <!-- Cute Animated Flowers -->
+                    <svg class="flower flower-1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <g class="flower-group">
+                            <circle cx="50" cy="50" r="8" fill="#8b7aa1"/>
+                            <circle cx="50" cy="25" r="12" fill="#d4a5a5" opacity="0.8"/>
+                            <circle cx="75" cy="35" r="12" fill="#d4a5a5" opacity="0.8"/>
+                            <circle cx="75" cy="65" r="12" fill="#d4a5a5" opacity="0.8"/>
+                            <circle cx="50" cy="75" r="12" fill="#d4a5a5" opacity="0.8"/>
+                            <circle cx="25" cy="65" r="12" fill="#d4a5a5" opacity="0.8"/>
+                            <circle cx="25" cy="35" r="12" fill="#d4a5a5" opacity="0.8"/>
+                        </g>
+                    </svg>
+
+                    <svg class="flower flower-2" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <g class="flower-group">
+                            <circle cx="50" cy="50" r="7" fill="#a8d5ba"/>
+                            <circle cx="50" cy="28" r="10" fill="#8b7aa1" opacity="0.7"/>
+                            <circle cx="72" cy="39" r="10" fill="#8b7aa1" opacity="0.7"/>
+                            <circle cx="72" cy="61" r="10" fill="#8b7aa1" opacity="0.7"/>
+                            <circle cx="50" cy="72" r="10" fill="#8b7aa1" opacity="0.7"/>
+                            <circle cx="28" cy="61" r="10" fill="#8b7aa1" opacity="0.7"/>
+                            <circle cx="28" cy="39" r="10" fill="#8b7aa1" opacity="0.7"/>
+                        </g>
+                    </svg>
+
+                    <svg class="flower flower-3" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <g class="flower-group">
+                            <circle cx="50" cy="50" r="6" fill="#d4a5a5"/>
+                            <circle cx="50" cy="30" r="9" fill="#a8d5ba" opacity="0.85"/>
+                            <circle cx="70" cy="40" r="9" fill="#a8d5ba" opacity="0.85"/>
+                            <circle cx="70" cy="60" r="9" fill="#a8d5ba" opacity="0.85"/>
+                            <circle cx="50" cy="70" r="9" fill="#a8d5ba" opacity="0.85"/>
+                            <circle cx="30" cy="60" r="9" fill="#a8d5ba" opacity="0.85"/>
+                            <circle cx="30" cy="40" r="9" fill="#a8d5ba" opacity="0.85"/>
+                        </g>
+                    </svg>
+
+                    <!-- Cute Floating Stars/Sparkles -->
+                    <div class="sparkle sparkle-1">✨</div>
+                    <div class="sparkle sparkle-2">✨</div>
+                    <div class="sparkle sparkle-3">✨</div>
+                    
+                    <div class="hero-placeholder">
+                        <div class="placeholder-glow"></div>
+                        <div class="placeholder-content">Your Photo</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <div class="accent-line"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Professional Summary</h3>
+                    <p>Final year Information Systems student with experience in IT support, General Affairs administration, data analysis, and software development. Skilled in troubleshooting hardware and network systems, creating SOP documentation, managing company assets, developing web and mobile applications, and creating interactive dashboards using Power BI.</p>
+                    <p>Experienced in building various applications using Laravel and Flutter, with solid understanding in system analysis, database design, and UI/UX principles. Strong analytical thinking, adaptability, team collaboration, and problem-solving skills with a passion for technology and innovation.</p>
+                    
+                    <h3 style="margin-top: 2rem;">Education</h3>
+                    <div class="education-item">
+                        <h4>D3 Information Systems</h4>
+                        <p class="institution">Bina Sarana Informatics University | Karawang, West Java</p>
+                        <p class="details">2023 – 2027 | Final Year Student | IPK: 3.90 / 4.00</p>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">15+</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">7+</div>
+                        <div class="stat-label">Technical Skills</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">3+</div>
+                        <div class="stat-label">Years of Experience</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2>Professional Experience</h2>
+                <div class="accent-line"></div>
+            </div>
+            <div class="experience-timeline">
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <h3>IT Support Specialist</h3>
+                        <span class="experience-date">Aug 2025 – Dec 2025</span>
+                    </div>
+                    <p class="experience-company">PT Indorama Ventures Sustainable Solution Indonesia</p>
+                    <ul class="experience-details">
+                        <li>Monitored LAN connectivity, internet systems, and server room conditions to ensure operational stability</li>
+                        <li>Managed IT asset inventory, generated QR code labels, and maintained accurate asset documentation</li>
+                        <li>Performed PC installation, troubleshooting, data backup, restore, and antivirus installation</li>
+                        <li>Developed a web-based employee leave request application to improve internal workflow efficiency</li>
+                        <li>Installed Samba services on Linux systems for project go-live implementation</li>
+                    </ul>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <h3>Admin General Affairs</h3>
+                        <span class="experience-date">March 2023 – Present</span>
+                    </div>
+                    <p class="experience-company">PT Indorama Ventures Sustainable Solution Indonesia</p>
+                    <ul class="experience-details">
+                        <li>Created and maintained SOP documentation for office operations and consumable management</li>
+                        <li>Managed administrative documentation and operational records</li>
+                        <li>Supported GA activities including asset inventory, procurement, and event coordination</li>
+                        <li>Managed general administration activities and supported daily operational needs</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured Projects</h2>
+                <div class="accent-line"></div>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image placeholder">
+                        <div class="placeholder-text">MyReservasi</div>
+                    </div>
+                    <div class="project-info">
+                        <h3>MyReservasi - Warehouse Reservation</h3>
+                        <p>Developed web and mobile reservation bon pipa applications for warehouse management using Laravel and Flutter frameworks.</p>
+                        <div class="project-tags">
+                            <span class="tag">Laravel</span>
+                            <span class="tag">Flutter</span>
+                            <span class="tag">Backend</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image placeholder">
+                        <div class="placeholder-text">Havetra</div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Havetra - Face ID Attendance System</h3>
+                        <p>Web-based attendance system using face recognition technology. Includes UI/UX design and full implementation.</p>
+                        <div class="project-tags">
+                            <span class="tag">Face Recognition</span>
+                            <span class="tag">Web App</span>
+                            <span class="tag">UI/UX Design</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image placeholder">
+                        <div class="placeholder-text">AsetKu</div>
+                    </div>
+                    <div class="project-info">
+                        <h3>AsetKu - Asset Management System</h3>
+                        <p>Web-based asset management application for data management and asset tracking using Laravel framework.</p>
+                        <div class="project-tags">
+                            <span class="tag">Laravel</span>
+                            <span class="tag">Database</span>
+                            <span class="tag">Admin Panel</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image placeholder">
+                        <div class="placeholder-text">TimeRequest</div>
+                    </div>
+                    <div class="project-info">
+                        <h3>TimeRequest - Employee Leave System</h3>
+                        <p>Developed during internship to improve workflow efficiency. Web-based leave request application using Laravel.</p>
+                        <div class="project-tags">
+                            <span class="tag">Laravel</span>
+                            <span class="tag">Web Application</span>
+                            <span class="tag">Workflow</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image placeholder">
+                        <div class="placeholder-text">Data Analysis</div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Mental Health & Social Media Dashboard</h3>
+                        <p>Interactive Power BI dashboards analyzing relationships between social media usage and mental health patterns.</p>
+                        <div class="project-tags">
+                            <span class="tag">Power BI</span>
+                            <span class="tag">Data Analysis</span>
+                            <span class="tag">Dashboard</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image placeholder">
+                        <div class="placeholder-text">Gelora Apps</div>
+                    </div>
+                    <div class="project-info">
+                        <h3>GeloraApps - Local Economy Platform</h3>
+                        <p>Prototype design with Figma to create jobs and expand MSME network in Karawang during PERIODA 2025.</p>
+                        <div class="project-tags">
+                            <span class="tag">UI/UX Design</span>
+                            <span class="tag">Figma</span>
+                            <span class="tag">Innovation</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2>Skills & Expertise</h2>
+                <div class="accent-line"></div>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Programming</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Python</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">PHP</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Flutter</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">HTML/CSS/JavaScript</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 92%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Backend & Framework</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Laravel</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">MySQL & MariaDB</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 88%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">SDLC & Waterfall</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Data & Tools</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Power BI & Tableau</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Data Analysis (Pandas)</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 82%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Figma & UI/UX</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 88%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Git & VS Code</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 92%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>IT Support & System</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Network Troubleshooting</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Hardware Maintenance</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 88%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Asset Management</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <div class="accent-line"></div>
+                <p class="section-subtitle">Hubungi saya untuk diskusi lebih lanjut tentang peluang kolaborasi</p>
+            </div>
+
+            <div class="contact-wrapper">
+                <!-- Quick Contact Info -->
+                <div class="quick-contact">
+                    <div class="quick-contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>adrillawindralia09@gmail.com</span>
+                    </div>
+                    <div class="quick-contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+62 85215375394</span>
+                    </div>
+                    <div class="quick-contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Karawang, Indonesia</span>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <form class="contact-form-single" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Nama Lengkap</label>
+                        <input type="text" id="name" placeholder="Masukkan nama Anda" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Masukkan email Anda" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subjek</label>
+                        <input type="text" id="subject" placeholder="Topik diskusi" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Pesan</label>
+                        <textarea id="message" placeholder="Tulis pesan Anda di sini..." rows="6" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-submit">Kirim Pesan</button>
+                </form>
+
+                <!-- Social Links -->
+                <div class="social-contact">
+                    <p class="social-label">Atau terhubung melalui media sosial:</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/Adrilla0909" target="_blank" class="social-icon" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com" target="_blank" class="social-icon" title="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="mailto:adrillawindralia09@gmail.com" class="social-icon" title="Email">
+                            <i class="fab fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2026 Adrilla Windralia. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#" class="social-link">LinkedIn</a>
+                    <a href="#" class="social-link">GitHub</a>
+                    <a href="#" class="social-link">Twitter</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
