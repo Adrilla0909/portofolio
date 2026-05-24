@@ -177,16 +177,6 @@ document.querySelectorAll('.skill-item').forEach(el => {
     progressObserver.observe(el);
 });
 
-// ==================== PARALLAX EFFECT ==================== 
-window.addEventListener('scroll', () => {
-    const scrolled = window.pageYOffset;
-    const hero = document.querySelector('.hero-image-container');
-    
-    if (hero) {
-        hero.style.transform = `translateY(${scrolled * 0.5}px)`;
-    }
-});
-
 // ==================== DARK MODE TOGGLE (OPTIONAL) ==================== 
 // Uncomment to enable dark mode toggle
 /*
