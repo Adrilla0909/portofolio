@@ -1,4 +1,3 @@
-// ==================== MOBILE MENU TOGGLE ==================== 
 const hamburger = document.getElementById('hamburger');
 const navLinks = document.getElementById('navLinks');
 
@@ -181,7 +180,7 @@ document.querySelectorAll('.skill-item').forEach(el => {
 // ==================== PARALLAX EFFECT ==================== 
 window.addEventListener('scroll', () => {
     const scrolled = window.pageYOffset;
-    const hero = document.querySelector('.hero-placeholder');
+    const hero = document.querySelector('.hero-image-container');
     
     if (hero) {
         hero.style.transform = `translateY(${scrolled * 0.5}px)`;

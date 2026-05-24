@@ -5,7 +5,7 @@ A clean, elegant, and modern CV portfolio website featuring responsive design, p
 ## ✨ Features
 
 - **Fully Responsive Design**: Mobile-first approach, perfect on all devices
-- **Modern Aesthetic**: Clean, soft color palette with unique accent colors  
+- **Modern Aesthetic**: Clean, soft color palette with unique accent colors
 - **Smooth Animations**: Scroll animations, parallax effects, and transitions
 - **Interactive Navigation**: Fixed header with smooth scroll navigation
 - **Professional Layout**: Structured CV presentation with multiple sections
@@ -34,6 +34,7 @@ A clean, elegant, and modern CV portfolio website featuring responsive design, p
 ## 🚀 Getting Started
 
 ### Prerequisites
+
 - A modern web browser (Chrome, Firefox, Safari, Edge)
 - A code editor (VS Code recommended)
 - Live Server extension for local development (optional)
@@ -41,6 +42,7 @@ A clean, elegant, and modern CV portfolio website featuring responsive design, p
 ### Installation
 
 1. Clone or download this repository
+
 ```bash
 git clone <repository-url>
 cd portofolio
@@ -69,56 +71,71 @@ portofolio/
 ## 🎨 Customization
 
 ### Update Personal Information
+
 Edit the following in `index.html`:
+
 - Change hero section with your professional summary
 - Update experience and project details
 - Modify skills and competencies
 - Add your social media links and contact information
 
 ### Modify Colors
+
 Edit the CSS variables in `css/styles.css`:
+
 ```css
 :root {
-    --primary-color: #8b7aa1;      /* Main color */
-    --secondary-color: #d4a5a5;    /* Accent color */
-    --accent-color: #a8d5ba;       /* Highlight color */
+  --primary-color: #8b7aa1; /* Main color */
+  --secondary-color: #d4a5a5; /* Accent color */
+  --accent-color: #a8d5ba; /* Highlight color */
 }
 ```
 
 ### Add Project Images
+
 1. Create optimized images (recommended: 600x400px, <200KB)
 2. Place them in the `images/` folder
 3. Update project cards in HTML with image paths:
+
 ```html
-<img src="images/your-project.jpg" alt="Project Name">
+<img src="images/your-project.jpg" alt="Project Name" />
 ```
 
 ### Customize Fonts
+
 Change font imports in `index.html`:
+
 ```html
-<link href="https://fonts.googleapis.com/css2?family=YourFont:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link
+  href="https://fonts.googleapis.com/css2?family=YourFont:wght@300;400;600;700&display=swap"
+  rel="stylesheet"
+/>
 ```
 
 ## 🔧 JavaScript Features
 
 ### Mobile Menu
+
 - Automatic hamburger menu on mobile devices
 - Smooth toggle animation
 - Auto-close on link click
 - Keyboard support (Escape key)
 
 ### Smooth Navigation
+
 - Smooth scrolling to sections
 - Active link highlighting during scroll
 - Fixed navigation header
 
 ### Interactive Elements
+
 - Form validation for contact form
 - Success/error notifications
 - Hover animations on cards
 - Progress bar animations on scroll
 
 ### Animations
+
 - Scroll-triggered fade-in animations
 - Parallax effects on hero section
 - Hover transitions on all interactive elements
@@ -151,6 +168,7 @@ All sections adapt perfectly to different screen sizes.
 ## 📦 Deployment
 
 ### Deploy to GitHub Pages
+
 1. Push to GitHub repository
 2. Go to Settings → Pages
 3. Select "Deploy from a branch"
@@ -158,11 +176,13 @@ All sections adapt perfectly to different screen sizes.
 5. Your site will be live at `https://yourusername.github.io/portofolio`
 
 ### Deploy to Netlify
+
 1. Connect your GitHub repository to Netlify
 2. Netlify will auto-deploy on every push
 3. Get a free `.netlify.app` domain
 
 ### Deploy to Vercel
+
 1. Import your GitHub repository
 2. Vercel handles the deployment automatically
 3. Get a free `.vercel.app` domain
@@ -170,29 +190,34 @@ All sections adapt perfectly to different screen sizes.
 ## 📝 Content Sections
 
 ### Professional Summary
+
 - Overview of skills and experience
 - Education details
 - Statistics about projects and experience
 
 ### Experience Timeline
+
 - Current and past positions
 - Company names and dates
 - Key responsibilities and achievements
 - Visual timeline layout
 
 ### Projects Showcase
+
 - Featured projects with descriptions
 - Technology tags for each project
 - Organized grid layout
 - Interactive hover effects
 
 ### Skills & Expertise
+
 - Technical skills by category
 - Visual progress indicators
 - Organized skill groups
 - Easy to customize
 
 ### Contact Information
+
 - Email, phone, location
 - Social media profiles (GitHub, LinkedIn)
 - Contact form with validation
@@ -214,6 +239,7 @@ Feel free to fork, modify, and improve this portfolio template!
 ## 📞 Support
 
 For questions or issues, please check:
+
 1. The HTML/CSS comments in the files
 2. JavaScript console for errors (F12)
 3. Browser developer tools for styling issues
@@ -224,4 +250,3 @@ For questions or issues, please check:
 IT Support Specialist | Software Developer | Data Analyst
 
 📧 adrillawindralia09@gmail.com | 📱 +62 85215375394 | 📍 Karawang, Indonesia
-
