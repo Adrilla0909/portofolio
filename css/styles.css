@@ -346,30 +346,6 @@ a:hover {
     display: block;
 }
 
-@keyframes float {
-    0%, 100% {
-        transform: translateY(0px) rotateZ(0deg);
-    }
-    25% {
-        transform: translateY(-25px) rotateZ(1deg);
-    }
-    50% {
-        transform: translateY(-30px) rotateZ(0deg);
-    }
-    75% {
-        transform: translateY(-20px) rotateZ(-1deg);
-    }
-}
-
-@keyframes breathe {
-    0%, 100% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(1.02);
-    }
-}
-
 @keyframes rotateRing {
     0% {
         transform: rotate(0deg);
