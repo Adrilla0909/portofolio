@@ -838,6 +838,8 @@ a:hover {
 .contact-wrapper {
     max-width: 700px;
     margin: 0 auto;
+    width: 100%;
+    padding: 0 1rem;
 }
 
 /* Quick Contact Info */
@@ -1171,11 +1173,16 @@ a:hover {
     }
 
     .quick-contact-item {
-        justify-content: center;
+        justify-content: flex-start;
     }
 
     .contact-form-single {
         padding: 1.5rem;
+        margin-left: -2rem;
+        margin-right: -2rem;
+        border-radius: 0;
+        border-left: none;
+        border-right: none;
     }
 
     .social-icons {
@@ -1286,6 +1293,11 @@ a:hover {
     .contact-form-single {
         padding: 1rem;
         gap: 1rem;
+        margin-left: -1rem;
+        margin-right: -1rem;
+        border-radius: 0;
+        border-left: none;
+        border-right: none;
     }
 
     .contact-form-single .form-group {
@@ -1304,6 +1316,37 @@ a:hover {
 
     .contact-form-single textarea {
         font-size: 0.85rem;
+    }
+
+    .quick-contact {
+        flex-direction: column;
+        padding: 1rem;
+        gap: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .quick-contact-item {
+        font-size: 0.9rem;
+        justify-content: flex-start;
+    }
+
+    .btn {
+        font-size: 0.9rem;
+        padding: 0.8rem 1.5rem;
+    }
+
+    .btn-submit {
+        margin-top: 0.25rem;
+    }
+
+    .social-icons {
+        gap: 0.8rem;
+    }
+
+    .social-icon {
+        width: 40px;
+        height: 40px;
+        font-size: 0.9rem;
     }
 
     .btn {
