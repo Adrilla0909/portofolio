@@ -1286,7 +1286,32 @@ a:hover {
     }
 
     .hero-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        max-width: 200px;
+        height: 200px;
+        margin: 0 auto 1rem;
+    }
+
+    .hero-ring,
+    .flower,
+    .sparkle {
         display: none;
+    }
+
+    .hero-image-container {
+        width: 100%;
+        height: 100%;
+        position: static;
+    }
+
+    .profile-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 50%;
     }
 
     .hero-ring-1 {
