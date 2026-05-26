@@ -1273,40 +1273,40 @@ a:hover {
     }
 
     .hero {
-        margin-top: 60px;
-        padding: 0.8rem 0;
+        margin-top: 50px;
+        padding: 0.4rem 0 0.2rem 0;
     }
 
     .hero-content {
         grid-template-columns: 1fr;
-        gap: 0.4rem;
+        gap: 0.2rem;
     }
 
     .hero-title {
         font-size: 1.5rem;
         line-height: 1.2;
-        margin-bottom: 0.4rem;
+        margin-bottom: 0.2rem;
     }
 
     .hero-subtitle {
         font-size: 0.9rem;
-        margin-bottom: 0.2rem;
+        margin-bottom: 0.1rem;
     }
 
     .hero-desc {
         font-size: 0.85rem;
-        margin-bottom: 0.6rem;
+        margin-bottom: 0.4rem;
     }
 
     .hero-buttons {
         flex-direction: column;
-        gap: 0.6rem;
+        gap: 0.5rem;
     }
 
     .btn {
         width: 100%;
-        padding: 0.7rem 0.8rem;
-        font-size: 0.9rem;
+        padding: 0.6rem 0.8rem;
+        font-size: 0.85rem;
     }
 
     .hero-image {
@@ -1314,9 +1314,9 @@ a:hover {
         justify-content: center;
         align-items: center;
         width: 100%;
-        max-width: 180px;
-        height: 180px;
-        margin: 0 auto 0;
+        max-width: 170px;
+        height: 170px;
+        margin: 0 auto 0.2rem;
     }
 
     .hero-ring,
