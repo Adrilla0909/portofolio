@@ -1282,4 +1282,46 @@ a:hover {
     .experience-details li {
         font-size: 0.9rem;
     }
+
+    .contact-form-single {
+        padding: 1rem;
+        gap: 1rem;
+    }
+
+    .contact-form-single .form-group {
+        gap: 0.3rem;
+    }
+
+    .contact-form-single label {
+        font-size: 0.85rem;
+    }
+
+    .contact-form-single input,
+    .contact-form-single textarea {
+        padding: 0.8rem;
+        font-size: 0.9rem;
+    }
+
+    .contact-form-single textarea {
+        font-size: 0.85rem;
+    }
+
+    .btn {
+        font-size: 0.9rem;
+        padding: 0.8rem 1.5rem;
+    }
+
+    .btn-submit {
+        margin-top: 0.25rem;
+    }
+
+    .social-icons {
+        gap: 0.8rem;
+    }
+
+    .social-icon {
+        width: 40px;
+        height: 40px;
+        font-size: 0.9rem;
+    }
 }
