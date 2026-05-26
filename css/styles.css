@@ -1279,7 +1279,7 @@ a:hover {
 
     .hero-content {
         grid-template-columns: 1fr;
-        gap: 1.5rem;
+        gap: 0.8rem;
     }
 
     .hero-title {
@@ -1314,13 +1314,12 @@ a:hover {
         justify-content: center;
         align-items: center;
         width: 100%;
-        max-width: 200px;
-        height: 200px;
-        margin: 0 auto 1rem;
+        max-width: 180px;
+        height: 180px;
+        margin: 0.5rem auto 0.5rem;
     }
 
     .hero-ring,
-    .flower,
     .sparkle {
         display: none;
     }
@@ -1329,6 +1328,8 @@ a:hover {
         width: 100%;
         height: 100%;
         position: static;
+        max-width: 180px;
+        box-shadow: 0 10px 25px rgba(139, 122, 161, 0.15);
     }
 
     .profile-image {
@@ -1350,30 +1351,25 @@ a:hover {
         border-width: 1px;
     }
 
-    .hero-image-container {
-        max-width: 260px;
-        box-shadow: 0 15px 40px rgba(139, 122, 161, 0.2);
-    }
-
     .flower {
-        width: 55px;
-        height: 55px;
-        opacity: 0.6;
+        width: 45px;
+        height: 45px;
+        opacity: 0.5;
     }
 
     .flower-1 {
-        top: -20px;
-        left: -20px;
+        top: -15px;
+        left: -15px;
     }
 
     .flower-2 {
-        bottom: -15px;
-        right: -15px;
+        bottom: -10px;
+        right: -10px;
     }
 
     .flower-3 {
         top: 40%;
-        right: -30px;
+        right: -25px;
     }
 
     .sparkle {
