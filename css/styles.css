@@ -1102,6 +1102,11 @@ a:hover {
         padding: 2rem 0;
     }
 
+    .hero-content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
     .hero-title {
         font-size: 1.8rem;
     }
@@ -1110,8 +1115,12 @@ a:hover {
         font-size: 1rem;
     }
 
+    .hero-desc {
+        font-size: 0.95rem;
+    }
+
     .hero-contact {
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: wrap;
     }
 
@@ -1127,6 +1136,10 @@ a:hover {
     .btn {
         width: 100%;
         text-align: center;
+    }
+
+    .hero-image {
+        display: none;
     }
 
     .flower {
@@ -1212,19 +1225,68 @@ a:hover {
     }
 
     h1 {
-        font-size: 1.5rem;
-    }
-
-    h2 {
         font-size: 1.3rem;
     }
 
+    h2 {
+        font-size: 1.2rem;
+    }
+
     h3 {
-        font-size: 1.1rem;
+        font-size: 1rem;
+    }
+
+    .nav-content {
+        padding: 1rem 0;
+    }
+
+    .logo {
+        font-size: 1.2rem;
     }
 
     .section-header {
         margin-bottom: 2rem;
+    }
+
+    .hero {
+        margin-top: 60px;
+        padding: 1.5rem 0;
+    }
+
+    .hero-content {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .hero-title {
+        font-size: 1.5rem;
+        line-height: 1.2;
+        margin-bottom: 0.8rem;
+    }
+
+    .hero-subtitle {
+        font-size: 0.9rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .hero-desc {
+        font-size: 0.85rem;
+        margin-bottom: 1rem;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        gap: 0.8rem;
+    }
+
+    .btn {
+        width: 100%;
+        padding: 0.8rem 1rem;
+        font-size: 0.9rem;
+    }
+
+    .hero-image {
+        display: none;
     }
 
     .hero-ring-1 {
