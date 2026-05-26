@@ -1273,10 +1273,9 @@ a:hover {
     }
 
     .hero {
-        margin-top: 0 !important;
-        padding: 0.5rem 0 0 0 !important;
+        margin-top: 75px !important;
+        padding: 0.5rem 0 0.2rem 0 !important;
         min-height: auto !important;
-        display: block !important;
     }
 
     .hero-content {
