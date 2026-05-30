@@ -830,6 +830,67 @@ a:hover {
     transition: width 1s ease;
 }
 
+/* ==================== CERTIFICATIONS SECTION ==================== */
+.certifications {
+    padding: 5rem 0;
+    background: linear-gradient(135deg, rgba(168, 213, 186, 0.08), rgba(139, 122, 161, 0.05));
+}
+
+.certifications-list {
+    display: grid;
+    gap: 2rem;
+}
+
+.certification-item {
+    display: flex;
+    gap: 1.5rem;
+    padding: 1.5rem 2rem;
+    background-color: var(--white);
+    border-radius: 12px;
+    border-left: 4px solid var(--primary-color);
+    box-shadow: var(--shadow-sm);
+    transition: var(--transition-smooth);
+}
+
+.certification-item:hover {
+    box-shadow: var(--shadow);
+    transform: translateX(5px);
+}
+
+.certification-item i {
+    font-size: 1.8rem;
+    color: var(--primary-color);
+    min-width: 30px;
+    text-align: center;
+    margin-top: 0.2rem;
+}
+
+.certification-content {
+    flex: 1;
+}
+
+.certification-content h4 {
+    color: var(--dark-text);
+    margin-bottom: 0.3rem;
+    font-size: 1rem;
+}
+
+.certification-detail {
+    color: var(--light-text);
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.certification-year {
+    display: inline-block;
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 600;
+    font-size: 0.85rem;
+}
+
 /* ==================== CONTACT SECTION ==================== */
 .contact {
     padding: 5rem 0;
