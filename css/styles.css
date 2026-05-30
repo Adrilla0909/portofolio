@@ -1254,6 +1254,16 @@ a:hover {
 .social-link {
     color: var(--white);
     transition: var(--transition-smooth);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-decoration: none;
+}
+
+.social-link i {
+    font-size: 1.1rem;
+    width: 24px;
+    text-align: center;
 }
 
 .social-link:hover {
