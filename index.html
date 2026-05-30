@@ -726,71 +726,114 @@
                 <div class="accent-line"></div>
             </div>
             <div class="certifications-list">
-                <div class="certification-item">
-                    <i class="fas fa-certificate"></i>
+                <div class="certification-item" onclick="openCertificateModal('images/sertif bnsp.png')">
+                    <div class="certification-thumbnail">
+                        <img src="images/sertif bnsp.png" alt="BNSP Certificate">
+                        <div class="thumbnail-overlay"><i class="fas fa-search-plus"></i></div>
+                    </div>
                     <div class="certification-content">
-                        <h4>Certificate of Competence Badan Nasional Sertifikasi Profesi (BNSP)</h4>
-                        <p class="certification-detail">Software Development with Competency Programmer</p>
+                        <h4>Certificate of Competence Badan Nasional Sertifikasi Profesi (BNSP) - Software Development with Competency Programmer</h4>
                         <span class="certification-year">2026</span>
                     </div>
                 </div>
-                <div class="certification-item">
-                    <i class="fas fa-certificate"></i>
+
+                <div class="certification-item" onclick="openCertificateModal('images/DQLab.png')">
+                    <div class="certification-thumbnail">
+                        <img src="images/DQLab.png" alt="DQLab Certificate">
+                        <div class="thumbnail-overlay"><i class="fas fa-search-plus"></i></div>
+                    </div>
                     <div class="certification-content">
-                        <h4>Guide to Learn R with AI</h4>
-                        <p class="certification-detail">DQLab</p>
+                        <h4>Guide to Learn R with AI - DQLab</h4>
                         <span class="certification-year">2025</span>
                     </div>
                 </div>
-                <div class="certification-item">
-                    <i class="fas fa-certificate"></i>
+
+                <div class="certification-item" onclick="openCertificateModal('images/gemastik.png')">
+                    <div class="certification-thumbnail">
+                        <img src="images/gemastik.png" alt="GEMASTIK Certificate">
+                        <div class="thumbnail-overlay"><i class="fas fa-search-plus"></i></div>
+                    </div>
                     <div class="certification-content">
                         <h4>GEMASTIK XVIII Data Mining Division Participant</h4>
                         <span class="certification-year">2025</span>
                     </div>
                 </div>
+
                 <div class="certification-item">
-                    <i class="fas fa-certificate"></i>
+                    <div class="certification-thumbnail no-image">
+                        <i class="fas fa-certificate"></i>
+                    </div>
                     <div class="certification-content">
                         <h4>Participants of Pekan Riset dan Inovasi Daerah (PERIODA)</h4>
                         <span class="certification-year">2025</span>
                     </div>
                 </div>
-                <div class="certification-item">
-                    <i class="fas fa-certificate"></i>
+
+                <div class="certification-item" onclick="openCertificateModal('images/itbootcamp.png')">
+                    <div class="certification-thumbnail">
+                        <img src="images/itbootcamp.png" alt="IT Bootcamp Certificate">
+                        <div class="thumbnail-overlay"><i class="fas fa-search-plus"></i></div>
+                    </div>
                     <div class="certification-content">
-                        <h4>IT Bootcamp: Software Development for Industry 2nd</h4>
-                        <p class="certification-detail">Web-based attendance using Face ID - Bina Sarana Informatics University</p>
+                        <h4>IT Bootcamp: Software Development for Industry 2nd In developing an application: "Web-based attendance using Face ID" - Bina Sarana Informatics University</h4>
                         <span class="certification-year">2025</span>
                     </div>
                 </div>
-                <div class="certification-item">
-                    <i class="fas fa-certificate"></i>
+
+                <div class="certification-item" onclick="openCertificateModal('images/zahir.png')">
+                    <div class="certification-thumbnail">
+                        <img src="images/zahir.png" alt="Zahir Certificate">
+                        <div class="thumbnail-overlay"><i class="fas fa-search-plus"></i></div>
+                    </div>
                     <div class="certification-content">
-                        <h4>Database System Workshop & Competition</h4>
-                        <p class="certification-detail">PT Zahir International</p>
+                        <h4>Database System Workshop & Competition - PT Zahir International</h4>
                         <span class="certification-year">2024</span>
                     </div>
                 </div>
-                <div class="certification-item">
-                    <i class="fas fa-certificate"></i>
+
+                <div class="certification-item" onclick="openCertificateModal('images/excelbasics.png')">
+                    <div class="certification-thumbnail">
+                        <img src="images/excelbasics.png" alt="Excel Basics Certificate">
+                        <div class="thumbnail-overlay"><i class="fas fa-search-plus"></i></div>
+                    </div>
                     <div class="certification-content">
-                        <h4>Excel Basics for Data Analysis</h4>
-                        <p class="certification-detail">IBM Coursera</p>
+                        <h4>Excel Basics for Data Analysis - IBM Coursera</h4>
                         <span class="certification-year">2022</span>
                     </div>
                 </div>
-                <div class="certification-item">
-                    <i class="fas fa-certificate"></i>
+
+                <div class="certification-item" onclick="openCertificateModal('images/microsoftword.png')">
+                    <div class="certification-thumbnail">
+                        <img src="images/microsoftword.png" alt="Microsoft Word Certificate">
+                        <div class="thumbnail-overlay"><i class="fas fa-search-plus"></i></div>
+                    </div>
                     <div class="certification-content">
-                        <h4>Work Smarter with Microsoft Word & Excel</h4>
-                        <p class="certification-detail">Microsoft Coursera</p>
+                        <h4>Work Smarter with Microsoft Word - Microsoft Coursera</h4>
+                        <span class="certification-year">2022</span>
+                    </div>
+                </div>
+
+                <div class="certification-item" onclick="openCertificateModal('images/microsoftexcel.png')">
+                    <div class="certification-thumbnail">
+                        <img src="images/microsoftexcel.png" alt="Microsoft Excel Certificate">
+                        <div class="thumbnail-overlay"><i class="fas fa-search-plus"></i></div>
+                    </div>
+                    <div class="certification-content">
+                        <h4>Work Smarter with Microsoft Excel - Microsoft Coursera</h4>
                         <span class="certification-year">2022</span>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- Certificate Modal -->
+    <div id="certificateModal" class="certificate-modal">
+        <div class="modal-content">
+            <span class="modal-close" onclick="closeCertificateModal()">&times;</span>
+            <img id="modalImage" src="" alt="Certificate">
+        </div>
+    </div>
 
     <!-- Contact Section -->
     <section id="contact" class="contact">

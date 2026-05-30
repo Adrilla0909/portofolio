@@ -221,5 +221,28 @@ document.addEventListener('keydown', (e) => {
         // Close mobile menu on Escape
         hamburger.classList.remove('active');
         navLinks.classList.remove('active');
+        closeCertificateModal();
+    }
+});
+
+// ==================== CERTIFICATE MODAL ==================== 
+function openCertificateModal(imageSrc) {
+    const modal = document.getElementById('certificateModal');
+    const modalImage = document.getElementById('modalImage');
+    modalImage.src = imageSrc;
+    modal.classList.add('show');
+    document.body.style.overflow = 'hidden';
+}
+
+function closeCertificateModal() {
+    const modal = document.getElementById('certificateModal');
+    modal.classList.remove('show');
+    document.body.style.overflow = 'auto';
+}
+
+// Close modal when clicking outside the image
+document.getElementById('certificateModal')?.addEventListener('click', (e) => {
+    if (e.target.id === 'certificateModal') {
+        closeCertificateModal();
     }
 });
