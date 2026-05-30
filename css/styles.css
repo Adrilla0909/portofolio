@@ -830,6 +830,88 @@ a:hover {
     transition: width 1s ease;
 }
 
+/* ==================== AWARDS & RECOGNITION SECTION ==================== */
+.awards {
+    padding: 5rem 0;
+    background: linear-gradient(135deg, rgba(212, 165, 165, 0.08), rgba(168, 213, 186, 0.08));
+}
+
+.awards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2.5rem;
+}
+
+.award-card {
+    background-color: var(--white);
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: var(--shadow-sm);
+    transition: var(--transition-smooth);
+    cursor: pointer;
+}
+
+.award-card:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--shadow);
+}
+
+.award-image {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    background-color: var(--light-bg);
+}
+
+.award-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: var(--transition-smooth);
+}
+
+.award-card:hover .award-image img {
+    transform: scale(1.05);
+}
+
+.award-badge {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    font-size: 1.5rem;
+    box-shadow: 0 4px 15px rgba(139, 122, 161, 0.3);
+}
+
+.award-content {
+    padding: 1.5rem;
+}
+
+.award-content h3 {
+    color: var(--dark-text);
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.award-year {
+    color: var(--light-text);
+    font-size: 0.9rem;
+    display: inline-block;
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 600;
+}
+
 /* ==================== CERTIFICATIONS SECTION ==================== */
 .certifications {
     padding: 5rem 0;
